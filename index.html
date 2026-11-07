@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAT Tutoring in Beirut, Lebanon | AmroAcademy Private SAT Tutor</title>
-  <meta name="description" content="Private SAT tutoring in Beirut, Lebanon — online or in-home 1:1 sessions with AmroAcademy. Personalized SAT prep to raise your score and open university and scholarship opportunities.">
-  <meta name="keywords" content="SAT tutoring Lebanon, SAT tutor Beirut, private SAT tutoring Beirut, SAT prep Lebanon, digital SAT tutor Beirut, SAT tutor near me Lebanon">
+  <meta name="description" content="Private SAT tutoring in Beirut, Lebanon and online for international students worldwide — 1:1 sessions with AmroAcademy. Personalized SAT prep to raise your score and open university and scholarship opportunities.">
+  <meta name="keywords" content="SAT tutoring Lebanon, SAT tutor Beirut, private SAT tutoring Beirut, SAT prep Lebanon, digital SAT tutor Beirut, SAT tutor near me Lebanon, online SAT tutor, online SAT tutoring for international students">
   <meta name="theme-color" content="#0ea5e9">
   <link rel="canonical" href="https://amroacademy.org/">
 
@@ -17,7 +17,7 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="SAT Tutoring in Beirut, Lebanon | AmroAcademy">
-  <meta property="og:description" content="Private SAT tutoring in Beirut, Lebanon. Online or in-home 1:1 sessions to help students maximize their score and pursue university and scholarship opportunities.">
+  <meta property="og:description" content="Private SAT tutoring in Beirut, Lebanon and online for international students worldwide. Online or in-home 1:1 sessions to help students maximize their score and pursue university and scholarship opportunities.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   <meta property="og:url" content="https://amroacademy.org/">
@@ -29,7 +29,7 @@
     "@context": "https://schema.org",
     "@type": "TutoringService",
     "name": "AmroAcademy",
-    "description": "Private SAT tutoring in Beirut, Lebanon, available online or through in-home 1:1 sessions.",
+    "description": "Private SAT tutoring in Beirut, Lebanon through in-home 1:1 sessions, and online SAT tutoring for international students worldwide.",
     "url": "https://amroacademy.org/",
     "email": "amroacademylb@gmail.com",
     "telephone": "+96171748459",
@@ -48,7 +48,8 @@
       { "@type": "Place", "name": "Sodeco" },
       { "@type": "Place", "name": "Furn El Chebbak" },
       { "@type": "Place", "name": "Sin El Fil" },
-      { "@type": "Place", "name": "Dahieh" }
+      { "@type": "Place", "name": "Dahieh" },
+      { "@type": "Place", "name": "Worldwide (online)" }
     ],
     "address": {
       "@type": "PostalAddress",
@@ -78,6 +79,7 @@
        {{from_name}}
        {{student_name}}
        {{from_email}}
+       {{country}}
        {{phone}}
        {{grade}}
        {{current_score}}
@@ -89,6 +91,7 @@
        Name: {{from_name}}
        Student's Name (if parent): {{student_name}}
        Email: {{from_email}}
+       Country: {{country}}
        Phone: {{phone}}
        Grade: {{grade}}
        Current SAT: {{current_score}}
@@ -100,6 +103,7 @@
   was created — log into EmailJS and add these two variables to your existing
   template so they show up in the emails you receive; otherwise they'll be
   submitted but silently ignored by EmailJS.
+  The same applies to {{country}} — add it to your EmailJS template too.
   4. Copy your EmailJS Public Key, Service ID and Template ID into the
      three constants marked below:
        YOUR_PUBLIC_KEY
@@ -672,6 +676,24 @@
 .brand-name span{color:#0ea5e9}
 
 </style>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3235333533323780');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3235333533323780&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -722,11 +744,11 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow">📍 SAT Private Tutoring in Beirut, Lebanon</span>
+          <span class="eyebrow">📍 SAT Private Tutoring in Beirut · 🌍 Online Worldwide</span>
           <h1>Your SAT score can open doors — <em>and scholarship opportunities.</em></h1>
           <p>
             I used my own SAT performance to earn a scholarship and graduate in Computer Science from LAU.
-            Now I help students across Beirut and Lebanon prepare strategically, build confidence, and make the most of every point — online or in-home.
+            Now I help students in Lebanon and international students around the world prepare strategically, build confidence, and make the most of every point — live online from any country, or in-home across Beirut.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary btn-wide" href="#leadForm">Book Your Free First Session <span aria-hidden="true">→</span></a>
@@ -734,11 +756,11 @@
           </div>
           <div class="capacity-note">
             <span class="capacity-dot" aria-hidden="true"></span>
-            Now accepting founding students in Beirut — your first session is free, online, and fully diagnostic.
+            Now accepting founding students in Lebanon and abroad — your first session is free, online, and fully diagnostic.
           </div>
           <div class="proof-row" aria-label="Key benefits">
             <div class="proof"><span class="proof-icon">📍</span>Based in Beirut, Lebanon</div>
-            <div class="proof"><span class="proof-icon">✓</span>Online private tutoring</div>
+            <div class="proof"><span class="proof-icon">🌍</span>Online for international students</div>
             <div class="proof"><span class="proof-icon">✓</span>In-home 1:1 tutoring</div>
           </div>
 
@@ -779,9 +801,9 @@
       <div class="format-grid">
         <article class="testimonial reveal">
           <div class="stars" aria-hidden="true">ONLINE</div>
-          <h3>Online Private Tutoring</h3>
-          <blockquote>Live 1:1 sessions from wherever the student is. Ideal for flexible scheduling, regular practice, detailed review, and students outside the local service area.</blockquote>
-          <div class="person">Live online • 1:1 support</div>
+          <h3>Online Tutoring for International Students</h3>
+          <blockquote>Live 1:1 SAT sessions from any country — the Gulf, Europe, Africa, the Americas and beyond. Scheduled around your time zone, with the same personalized plan, practice and detailed review as in-person students.</blockquote>
+          <div class="person">Live online • Any country • 1:1 support</div>
         </article>
         <article class="testimonial reveal">
           <div class="stars" aria-hidden="true">IN-HOME</div>
@@ -1212,14 +1234,60 @@
               </div>
 
               <div class="field">
-                <label for="from_email">Email <span aria-hidden="true">*</span></label>
-                <input id="from_email" name="from_email" type="email" autocomplete="email" required aria-required="true" aria-describedby="emailError">
+                <label for="from_email">Email <span class="optional">(optional)</span></label>
+                <input id="from_email" name="from_email" type="email" autocomplete="email" aria-describedby="emailError">
                 <div class="error" id="emailError" role="alert"></div>
               </div>
 
               <div class="field">
+                <label for="country">Country <span aria-hidden="true">*</span></label>
+                <select id="country" name="country" required aria-required="true" autocomplete="country-name">
+                  <option value="Lebanon" data-dial="+961" selected>Lebanon</option>
+                  <option value="United Arab Emirates" data-dial="+971">United Arab Emirates</option>
+                  <option value="Saudi Arabia" data-dial="+966">Saudi Arabia</option>
+                  <option value="Qatar" data-dial="+974">Qatar</option>
+                  <option value="Kuwait" data-dial="+965">Kuwait</option>
+                  <option value="Bahrain" data-dial="+973">Bahrain</option>
+                  <option value="Oman" data-dial="+968">Oman</option>
+                  <option value="Jordan" data-dial="+962">Jordan</option>
+                  <option value="Egypt" data-dial="+20">Egypt</option>
+                  <option value="Iraq" data-dial="+964">Iraq</option>
+                  <option value="Syria" data-dial="+963">Syria</option>
+                  <option value="Turkey" data-dial="+90">Turkey</option>
+                  <option value="Cyprus" data-dial="+357">Cyprus</option>
+                  <option value="France" data-dial="+33">France</option>
+                  <option value="United Kingdom" data-dial="+44">United Kingdom</option>
+                  <option value="Germany" data-dial="+49">Germany</option>
+                  <option value="Belgium" data-dial="+32">Belgium</option>
+                  <option value="Switzerland" data-dial="+41">Switzerland</option>
+                  <option value="Italy" data-dial="+39">Italy</option>
+                  <option value="Spain" data-dial="+34">Spain</option>
+                  <option value="Netherlands" data-dial="+31">Netherlands</option>
+                  <option value="Sweden" data-dial="+46">Sweden</option>
+                  <option value="United States" data-dial="+1">United States</option>
+                  <option value="Canada" data-dial="+1">Canada</option>
+                  <option value="Mexico" data-dial="+52">Mexico</option>
+                  <option value="Brazil" data-dial="+55">Brazil</option>
+                  <option value="Venezuela" data-dial="+58">Venezuela</option>
+                  <option value="Colombia" data-dial="+57">Colombia</option>
+                  <option value="Argentina" data-dial="+54">Argentina</option>
+                  <option value="Nigeria" data-dial="+234">Nigeria</option>
+                  <option value="Ghana" data-dial="+233">Ghana</option>
+                  <option value="Côte d'Ivoire" data-dial="+225">Côte d'Ivoire</option>
+                  <option value="Senegal" data-dial="+221">Senegal</option>
+                  <option value="Sierra Leone" data-dial="+232">Sierra Leone</option>
+                  <option value="South Africa" data-dial="+27">South Africa</option>
+                  <option value="Australia" data-dial="+61">Australia</option>
+                  <option value="India" data-dial="+91">India</option>
+                  <option value="Pakistan" data-dial="+92">Pakistan</option>
+                  <option value="China" data-dial="+86">China</option>
+                  <option value="Other" data-dial="">Other</option>
+                </select>
+              </div>
+
+              <div class="field">
                 <label for="phone">Phone Number <span aria-hidden="true">*</span></label>
-                <input id="phone" name="phone" type="tel" autocomplete="tel" required aria-required="true" aria-describedby="phoneError" placeholder="+961 ...">
+                <input id="phone" name="phone" type="tel" autocomplete="tel" required aria-required="true" aria-describedby="phoneError" placeholder="+961 ..." aria-label="Phone number (WhatsApp preferred)">
                 <div class="error" id="phoneError" role="alert"></div>
               </div>
 
@@ -1335,6 +1403,10 @@
           <details>
             <summary>Is tutoring available online or in person?</summary>
             <p>Both options are available. Students can study through online private tutoring, or request 1:1 in-home tutoring where a private tutor visits the student at home, subject to tutor availability and location.</p>
+          </details>
+          <details>
+            <summary>Do you tutor international students outside Lebanon?</summary>
+            <p>Yes. Online 1:1 SAT tutoring is available to students in any country. Sessions are scheduled around your time zone, and the free first diagnostic session is held online too — just choose your country in the form or message me on WhatsApp.</p>
           </details>
           <details>
             <summary>When should I start preparing?</summary>
@@ -1753,7 +1825,10 @@
       from_email: {
         input: document.getElementById("from_email"),
         error: document.getElementById("emailError"),
-        validate: value => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim()) ? "" : "Please enter a valid email address."
+        validate: value => {
+          if (!value.trim()) return "";
+          return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim()) ? "" : "Please enter a valid email address.";
+        }
       },
       phone: {
         input: document.getElementById("phone"),
@@ -1784,6 +1859,14 @@
         }
       }
     };
+
+    const countrySelect = document.getElementById("country");
+    const phoneInput = document.getElementById("phone");
+    function syncPhonePlaceholder() {
+      const dial = countrySelect.selectedOptions[0]?.dataset.dial;
+      phoneInput.placeholder = dial ? `${dial} ...` : "Include country code";
+    }
+    countrySelect.addEventListener("change", syncPhonePlaceholder);
 
     function validateField(name) {
       const item = fields[name];
@@ -1817,7 +1900,8 @@
         `Submitted by: ${role}`,
         `Name: ${data.get("from_name") || ""}`,
         role === "Parent" ? `Student's Name: ${data.get("student_name") || ""}` : null,
-        `Email: ${data.get("from_email") || ""}`,
+        `Email: ${data.get("from_email") || "Not provided"}`,
+        `Country: ${data.get("country") || ""}`,
         `Phone: ${data.get("phone") || ""}`,
         `Grade: ${data.get("grade") || ""}`,
         `Current SAT: ${data.get("current_score") || "Not provided"}`,
@@ -1874,6 +1958,7 @@
         await emailjs.sendForm(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.templateId, form);
 
         form.reset();
+        syncPhonePlaceholder();
         Object.keys(fields).forEach(name => {
           fields[name].input.classList.remove("invalid");
           fields[name].input.removeAttribute("aria-invalid");
@@ -1883,6 +1968,7 @@
 
         formStatus.className = "form-status success";
         formStatus.textContent = "Thank you! We'll reach out within 24 hours.";
+        if (typeof fbq === "function") fbq("track", "Lead", { content_name: "Free First Session Form" });
       } catch (error) {
         console.error("EmailJS error:", error);
         formStatus.className = "form-status error-status";
@@ -1893,6 +1979,15 @@
         submitText.textContent = "Send My Request";
         spinner.hidden = true;
       }
+    });
+  </script>
+
+  <script>
+    // Meta Pixel: track WhatsApp clicks as Contact
+    document.querySelectorAll('a[href^="https://wa.me/"]').forEach(link => {
+      link.addEventListener("click", () => {
+        if (typeof fbq === "function") fbq("track", "Contact", { content_name: "WhatsApp" });
+      });
     });
   </script>
 </body>
